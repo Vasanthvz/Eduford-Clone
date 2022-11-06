@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <section class="subheader">
+        <nav>
+            <a href="index.html"><img src="/eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid  fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </div>
+           
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+
+ 
+    <!-- Footer -->
+    <section class="footer">
+        <h4>About US</h4>
+        <p>For decades, Eduford College has improved the health of our communities, <br> one graduate at a time. The JoAnn McGrath School of Nursing and Health Professions, <br> as one of the largest nursing schools in Wisconsin, offers a wide array of fully accredited nursing programs, guaranteed clinical placements and a technology-rich Center for Clinical Education</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i> 
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>       
+        </div>
+        <p>Made width <i class="fa-regular fa-heart"></i> by Easy Tutorials</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
+
+
+
+
+
+

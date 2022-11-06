@@ -332,3 +332,11 @@ h3{
 .fa-regular{
     color: #f44336;
 }
+
+
+
+/* ----------- About Us  Page-------------------- */
+.subheader{
+    height: 50vh;
+    width: 100%;
+}
